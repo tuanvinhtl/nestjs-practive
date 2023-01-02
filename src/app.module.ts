@@ -12,7 +12,7 @@ import { ConfigModule } from '@nestjs/config';
       store: redisStore,
       host: process.env.REDIS_HOST,
       port: process.env.REDIS_PORT,
-    }),
+    })
   ],
   controllers: [AppController],
   providers: [AppService],
